@@ -18,7 +18,7 @@
 w[ic]{
 	margin-right:10px;
 }
-[ic="efff"]:before {
+[ic="_efff"]:before {
     content: "\efff";
 }
 body{
