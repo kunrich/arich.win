@@ -1,3 +1,26 @@
+@font-face{
+	font-family:R938;
+	src:
+	url(/font/R938.woff2) format('woff2'),
+	url(/font/R938.ttf) format('truetype');
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
+
+[ic]:before{
+	font-family:R938;
+	font-style: initial;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+w[ic]{
+	margin-right:10px;
+}
+[ic="efff"]:before {
+    content: "\efff";
+}
 body{
     font-family: Kanit,Roboto,Arial,R938,sans-serif;
     display: flex;
