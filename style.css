@@ -37,6 +37,9 @@ body{
     color: #162034;
     background: #eeeeee;
 }
+.box{
+    padding:0 10px;
+}
 .profile{
     width:100%;
     max-width:200px;
